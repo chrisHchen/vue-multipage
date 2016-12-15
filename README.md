@@ -23,7 +23,7 @@
 
 ## 开发
 npm run dev
-
+(浏览器地址栏输入：http://localhost:9001/demo/demo.html)
 
 ## 构建
 npm run build
@@ -37,4 +37,4 @@ npm start
 
 
 ## 例子
-项目里已经有几个test的例子
+项目里已经有几个demo

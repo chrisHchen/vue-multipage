@@ -1,11 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <img src="../assets/logo.png" alt="">
+    <h2>This is demo 2</h2>
     <div class="bg_logo"></div>
-    <a href="/demo2/demo2.html">go to demo 2</a>
-    <a href="/demo/subDemo/subDemo.html">go to subDemo</a>
+    <a href="/demo/demo.html">go to demo</a>
   </div>
 </template>
 
@@ -14,7 +12,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Test2'
     }
   }
 }
@@ -37,7 +35,6 @@ li {
 }
 
 a {
-  display: block;
   color: #42b983;
 }
 .hello{
@@ -45,6 +42,7 @@ a {
     background-image: url(../assets/logo.png);
     width:200px;
     height: 200px;
+    transform: rotateZ(90deg);
   }
 }
 </style>

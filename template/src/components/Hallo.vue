@@ -1,11 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <img src="../assets/logo.png" alt="">
+    <h2>This is demo</h2>
     <div class="bg_logo"></div>
-    <a href="/demo2/demo2.html">go to demo 2</a>
-    <a href="/demo/subDemo/subDemo.html">go to subDemo</a>
+    <a href="/demo/demo.html">go to demo</a>
   </div>
 </template>
 
@@ -26,18 +24,7 @@ h1, h2 {
   font-weight: normal;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
 a {
-  display: block;
   color: #42b983;
 }
 .hello{
@@ -45,6 +32,7 @@ a {
     background-image: url(../assets/logo.png);
     width:200px;
     height: 200px;
+    transform: rotateZ(180deg);
   }
 }
 </style>
