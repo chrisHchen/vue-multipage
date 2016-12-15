@@ -1,0 +1,7 @@
+{
+  "name": "vue-multipage-webpack-multiEntry",
+  "version": "1.0.0",
+  "license": "MIT",
+  "Keywords":["vue", "webpack", "element-ui"],
+  "description": "Vue multipage setup with Webpack hot-reload, css extraction, multi entries."
+}
